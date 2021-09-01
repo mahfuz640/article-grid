@@ -1,0 +1,22 @@
+    .container {
+        display: grid;
+        grid-gap: 30px 18px;
+        grid-template-columns: 250px 1fr 1fr;
+    }
+    
+    .article {
+        background-color: aquamarine;
+        text-align: center;
+    }
+    
+    .article-1 {
+        background-color: darkslategray;
+        grid-row: 1/span 3;
+        /*row 1ar class article-1 tumi 3ta row porjonto boro hou  */
+    }
+    
+    .article-2 {
+        background-color: crimson;
+        grid-column: 2/span 2;
+        /*column 1ar class article-1 tumi 2ta column  porjonto boro hou*/
+    }
